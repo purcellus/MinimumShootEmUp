@@ -69,7 +69,7 @@ public abstract class GameObject implements  IDrawable
 		
 		
 		
-		
+		//TODO I can easily turn - width/2 + width to just + width/2.
 		if (this.getX() - this.getWidth()/2  > otherobj.getX() + otherobj.getWidth() || this.getX() - this.getWidth()/2 + this.getWidth() < otherobj.getX() )
 		{//if this left x is less than the other's right x, or this right x is greater than the other's left x
 			//System.out.println("No collision detected in x");
